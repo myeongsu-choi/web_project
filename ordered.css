@@ -1,0 +1,34 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ordered {
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.image {
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: 300px;
+}
+.descript {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.details {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+}

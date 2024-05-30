@@ -1,0 +1,153 @@
+@media (min-width: 481px) {
+    section {
+        margin-top: 10px;
+    }
+    img {
+        width: 35%;
+        height: 500px;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .explain {
+        width: 65%;
+        margin: 0 16%;
+        text-align: center;
+    }
+    .explain p {
+        margin-left: 5%;
+    }
+    .review {
+        width: 100%;
+    }
+    .past {
+        display: inline-block;
+        width: 100%;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .box {
+        display: flex;
+    }
+    .comment {
+        width: 70%;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px
+    }
+    .nickname {
+        width: 20%;
+        margin-left: 2%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    fieldset {
+        border: none;
+    }
+    .select {
+        display: flex;
+        width: 90%;
+        padding: 20px;
+        margin: 0 3%;
+        text-align: center;
+    }
+    .select a {
+        color: brown;
+        text-decoration: none;
+    }
+    .buying, .heart {
+        display: inline-block;
+        width: 50%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        background: white;
+    }
+    .buying:hover, .heart:hover {
+        text-decoration: none;
+        background-color: whitesmoke;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        margin-top: 10px;
+    }
+    img {
+        width: 35%;
+        height: 500px;
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .explain {
+        width: 65%;
+        margin: 0 16%;
+        text-align: center;
+    }
+    .explain p {
+        margin-left: 5%;
+    }
+    .review {
+        width: 100%;
+    }
+    .past {
+        display: inline-block;
+        width: 100%;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .box {
+        display: flex;
+    }
+    .comment {
+        width: 70%;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px
+    }
+    .nickname {
+        width: 20%;
+        margin-left: 2%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    fieldset {
+        border: none;
+    }
+    .select {
+        display: flex;
+        width: 90%;
+        padding: 20px;
+        margin: 0 3%;
+        text-align: center;
+    }
+    .select a {
+        color: brown;
+        text-decoration: none;
+    }
+    .buying, .heart {
+        display: inline-block;
+        width: 50%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        background: white;
+    }
+    .buying:hover, .heart:hover {
+        text-decoration: none;
+        background-color: whitesmoke;
+    }
+}

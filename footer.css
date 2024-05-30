@@ -1,0 +1,122 @@
+@media (min-width: 481px) {
+    footer {
+        display: flex;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .footer-navigation {
+        width: 50%;
+        height: 40px;
+        margin: 0 10%;
+        padding: 5px;
+    }
+    .footer-navigation ul {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+    }
+    .footer-navigation li {
+        display: flex;
+        width: 20%;
+    }
+    .footer-navigation a {
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .footer-navigation a:hover {
+        text-decoration: underline;
+    }
+    .footer-navigation ul li:nth-child(2) {
+        position: relative;
+    }
+    .footer-navigation ul li:nth-child(2):hover .dropdown-content2 {
+        display: block;
+    }
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        bottom: 100%;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    .dropdown-content2 a {
+        color: black;
+        padding: 20px 0;
+        text-decoration: none;
+        display: block;
+        border-radius: 20px;
+    }
+    .dropdown-content2 a:hover {
+        background-color: whitesmoke;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    .footer-navigation {
+        width: 100%;
+        height: 40px;
+    }
+    .footer-navigation ul {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+    }
+    .footer-navigation li {
+        display: flex;
+        width: 20%;
+    }
+    .footer-navigation a {
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .footer-navigation a:hover {
+        text-decoration: underline;
+    }
+    .footer-navigation ul li:nth-child(2) {
+        position: relative;
+    }
+    .footer-navigation ul li:nth-child(2):hover .dropdown-content2 {
+        display: block;
+    }
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        bottom: 100%;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    .dropdown-content2 a {
+        color: black;
+        padding: 20px 0;
+        text-decoration: none;
+        display: block;
+        border-radius: 20px;
+    }
+    .dropdown-content2 a:hover {
+        background-color: whitesmoke;
+    }
+    .paragraph {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

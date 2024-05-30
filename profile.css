@@ -1,0 +1,46 @@
+.profile2 {
+    width: 90%;
+    margin: 20px 3%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.info {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+.name {
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+.nickname {
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+.alter {
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+}
+.update, .liked, .ordered {
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid gray;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+}
+.liked:hover, .update:hover, .ordered:hover {
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+.alter a {
+    color: brown;
+    text-decoration: none;
+}
